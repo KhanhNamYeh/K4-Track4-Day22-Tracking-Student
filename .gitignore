@@ -1,5 +1,14 @@
 lab_data/
-runs/
+# Chỉ đưa kết quả nộp bài và bảng metric vào Git.
+/runs/*
+!/runs/nop_bai/
+/runs/nop_bai/*
+!/runs/nop_bai/video_1.txt
+!/runs/nop_bai/video_2.txt
+!/runs/nop_bai/video_3.txt
+!/runs/nop_bai/video_4.txt
+!/runs/nop_bai/video_5.txt
+!/runs/nop_bai/video_1_metrics.txt
 TrackEval/
 *.pt
 __pycache__/
